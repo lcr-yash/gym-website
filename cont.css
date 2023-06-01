@@ -1,0 +1,96 @@
+.test{
+  text-decoration: line-through;
+  color: white;
+}
+body {
+  margin: 0px;
+  height: 0px;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  margin-top: 1%;
+  width: 150px;
+  margin-left: 3%;
+}
+
+
+.left {
+  display: inline-block;
+  position: absolute;
+  height: 34px;
+  margin-top: 20px;
+}
+
+.mid {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+
+}
+
+.mid {
+  background-color: rgba(128, 128, 128, 0.201)
+}
+
+.navbar {
+  display: inline-block;
+  
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 28px;
+}
+
+.navbar li a:hover,.navbar li a:active {
+  text-decoration: underline;
+  color: rgb(172, 65, 65);
+  transition: 1s;
+}
+
+.allpage {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid;
+  color: #f6f6f6be;
+  margin: 100px auto;
+  margin-top: 50px;
+  background-color: #35353554;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="text"],input[type="email"],input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-right: 1px;
+  border-left: 1px;
+  background-color: #0000001e;
+  text-align: center;
+  color: white;
+
+}
+
+input[type="type"] {
+  width: 316px;
+  padding: 15px;
+  border: -1px solid;
+  color: #98979743;
+  margin: 0 auto;
+  background-color: #00000019;
+  height: 90px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+
+}

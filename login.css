@@ -1,0 +1,128 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+  }
+  
+  .logo {
+    margin-top: 1%;
+    width: 150px;
+    margin-left: 3%;
+  }
+  
+  
+  .left {
+    display: inline-block;
+    position: absolute;
+    height: 34px;
+    margin-top: 20px;
+  }
+  
+  .mid {
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+  
+  }
+  
+  .mid {
+    background-color: rgba(128, 128, 128, 0.201)
+  }
+  
+  .navbar {
+    display: inline-block;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    font-size: 25px;
+  }
+  
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 28px;
+  }
+  
+  .navbar li a:hover,.navbar li a:active {
+    text-decoration: underline;
+    color: rgb(172, 65, 65);
+    transition: 1s;
+  }
+  
+  .allpage {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid;
+    color: #f6f6f6be;
+    margin: 100px auto;
+    margin-top: 100px;
+    background-color: #35353554;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+  }
+  
+  input[type="email"],input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-right: 1px;
+    border-left: 1px;
+    background-color: #0000001e;
+    text-align: center;
+    color: white;
+  
+  }
+  
+
+  .animated-button {
+    display: inline-block;
+    position: relative;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2195f3;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: 40%;
+    margin-top: 23px;
+  }
+  
+  .animated-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    transition: width 0.5s ease, height 0.5s ease;
+  }
+  
+  .animated-button:hover::before {
+    width: 100%;
+    height: 100%;
+  }
+  .social {
+    margin-top: 4%;
+}
+  .social a{
+    text-decoration: none;
+    padding: 0px 26px;
+  }
+  .forget{
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 65%;
+  }
+ 
